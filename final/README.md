@@ -1,4 +1,7 @@
-Had trouble deploying it so attached a screen recording or alternatively follow the steps below to run the code on your system
+Had trouble deploying it so attached a screen recording below or alternatively follow the steps below to run the code on your system
+
+https://github.com/Mourya-K/EntryExitManagementSytem/assets/98205221/46371165-e3dc-40f8-a81d-85c978e776be
+
 
 # Getting Started with Create React App
 
