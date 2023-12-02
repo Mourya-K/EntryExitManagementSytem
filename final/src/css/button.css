@@ -1,0 +1,39 @@
+.btn button {
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    /* height: 3rem;
+  width: 10rem; */
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 1s;
+    /* font-size: 1.5rem; */
+    padding: 10px;
+}
+
+.btn button:hover {
+    transform: scale(1.05);
+}
+
+.btn .deleteBtn {
+    background: red;
+}
+
+.btn .approveBtn {
+    background: rgb(45, 176, 45);
+}
+
+.btn .deleteBtn:hover {
+    cursor: pointer;
+}
+
+.btn .approveBtn:hover {
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    right: 45.6%;
+}

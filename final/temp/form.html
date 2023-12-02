@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Responsive Form</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="dropdown"><a href="#">file<span>&rsaquo;</span></a>
+                <ul>
+                    <li class="dropdown_two"><a href="#">new file<span>&rsaquo;</span></a>
+                        <ul>
+                            <li>
+                                <a href="#">link 1</a></li>
+                            <li>
+                                <a href="#">link 2</a></li>
+                            <li>
+                                <a href="#">link 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">open file</a></li>
+                    <li><a href="#">open folder</a></li>
+                    <li><a href="#">save</a></li>
+                </ul>
+            </li>
+            <li><a href="#">edit</a></li>
+            <li class="dropdown"><a href="#">selection<span>&rsaquo;</span></a>
+                <ul>
+                    <li><a href="#">add</a></li>
+                    <li><a href="#">invert</a></li>
+                    <li class="dropdown_two split"><a href="#">split<span>&rsaquo;</span></a>
+                        <ul>
+                            <li><a href="#">link 1</a></li>
+                            <li><a href="#">link 2</a></li>
+                            <li><a href="#">link 3</a></li>
+                            <li><a href="#">link 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">select all</a></li>
+                    <li><a href="#">brackets</a></li>
+                </ul>
+            </li>
+            <li><a href="#">tools</a></li>
+            <li><a href="#">view</a></li>
+            <li><a href="#">project</a></li>
+            <li><a href="#">about</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header>Registration</header>
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+
+                        <!-- Text type -->
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <!-- Date type -->
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <!-- Email type -->
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <!-- Password Type -->
+                        <div class="input-field">
+                            <label>Create Password</label>
+                            <input type="password" placeholder="Set a password" required>
+                        </div>
+
+                        <!-- Number type -->
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Enter your occupation" required>
+                        </div>
+
+                        <!-- Submit type -->
+                        <div class="input-field">
+                            <label>Submit</label>
+                            <input type="submit" name="submit" value="Submit">
+                        </div>
+
+                        <!-- Time type -->
+                        <div class="input-field">
+                            <label for="meeting-time">Meeting time:</label>
+                            <input type="time" id="meeting-time" name="meeting-time">
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- Checkbox Type -->
+                    <div class="wrapper">
+                        <label for="fruit">Choose your favourite fruit:</label><br>
+                        <input type="checkbox" id="apple" name="fruit[]" value="apple">
+                        <label for="apple">Apple</label><br>
+                        <input type="checkbox" id="banana" name="fruit[]" value="banana">
+                        <label for="banana">Banana</label><br>
+                        <input type="checkbox" id="orange" name="fruit[]" value="orange">
+                        <label for="orange">Orange</label><br>
+                    </div>
+
+
+                    <!-- Radio type -->
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        <span class="gender-title">Gender</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot one"></span>
+                                <span class="gender">Female</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot one"></span>
+                                <span class="gender">Prefer not to say</span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>ID Type</label>
+                            <input type="text" placeholder="Enter ID type" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ID Number</label>
+                            <input type="number" placeholder="Enter ID number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Authority</label>
+                            <input type="text" placeholder="Enter issued authority" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Issued State</label>
+                            <input type="text" placeholder="Enter issued state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Date</label>
+                            <input type="date" placeholder="Enter issued date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Expiry Date</label>
+                            <input type="date" placeholder="Enter expiry date" required>
+                        </div>
+
+                    </div>
+
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil navigator"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

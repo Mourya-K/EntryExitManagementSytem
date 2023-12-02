@@ -1,0 +1,236 @@
+.container2 {
+    position: relative;
+    width: 100vh;
+    padding-right: 200px;
+    width: 95%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    color: var(--main);
+    background-color: var(--heading);
+    /* box-shadow: 0 5px 10px rgba(var(--main), 1); */
+    box-shadow: 0 0 10px var(--main);
+    z-index: 0;
+    overflow: hidden;
+    scroll-behavior: auto;
+}
+
+.container2 header {
+    color: var(--main);
+}
+
+.container2 .details15421 {
+    padding-bottom: 2px;
+    color: var(--main);
+}
+
+.center-stage1236 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 header {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main);
+}
+
+.container2 header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: var(--main);
+}
+
+textarea {
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    /* height: 42px; */
+    margin: 8px 0;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    /* width: 65rem; */
+}
+
+.container2 .form7784u5 {
+    position: relative;
+    margin-top: 16px;
+    min-height: fit-content;
+    overflow: hidden;
+}
+
+.container2 .form7784u5 .details15421 {
+    margin-top: 30px;
+}
+
+.container2 .form7784u5 .details15421 .ID {
+    margin-top: 10px;
+}
+
+.container2 .form7784u5 .title7784u5 {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+}
+
+.container2 .form7784u5 .fields15421 {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form7784u5 .fields15421 .input-field76t33 {
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+    width: 95%;
+}
+
+.input-field76t33 label {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--main);
+}
+
+.input-field76t33 input {
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.input-field76t33 p {
+    display: flex;
+    align-items: center;
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    padding: 7px;
+    margin: 8px;
+    border-radius: 5px;
+    width: 100%;
+    height: 42px;
+    text-align: start;
+    background: #fff;
+    color: #000;
+}
+
+.input-field76t33 input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.input-field76t33 textarea:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.input-field76t33 p:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.input-field76t33 input[type="date"] {
+    color: #707070;
+}
+
+.input-field76t33 input[type="date"]:valid {
+    color: #333;
+}
+
+.container2 .form7784u5 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    /* max-width: 200px; */
+    width: 100%;
+    border: none;
+    outline: none;
+    color: var(--heading);
+    border-radius: 5px;
+    margin: 25px 0;
+    background: var(--main);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.form7784u5 button i {
+    margin: 0 6px;
+}
+
+.form7784u5 .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form7784u5 .category {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.form7784u5 .category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form7784u5 .category label .dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+    background: #9b59b6;
+    border-color: #d9d9d9;
+}
+
+.form7784u5 input[type="radio"] {
+    /* display: none; */
+    width: fit-content;
+    box-shadow: none;
+}
+
+.form7784u5 input[type="checkbox"] {
+    width: fit-content;
+    box-shadow: none;
+}
+
+.wrapper {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--heading);
+}
+
+.form7784u5 {
+    position: relative;
+}

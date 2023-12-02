@@ -1,0 +1,30 @@
+.dispImage {
+    height: 480px;
+    width: 640px;
+    justify-self: center;
+}
+
+.secCenter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* sakshi yaha par maine ek div banaya hai studentpic naam ka yeh div face entry ke next waale page par hai */
+
+
+/* and pic1 and pic2 photos hain from db and turant click ki gayi photo --->sanket*/
+
+.input-field76t33 {
+    width: auto;
+}
+
+.studentpic {
+    display: flex;
+    align-items: center;
+}
+
+.video {
+    height: 500px;
+}

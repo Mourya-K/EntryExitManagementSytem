@@ -1,0 +1,52 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15rem;
+}
+
+.input-box {
+    background-color: var(--main);
+    padding: 20px;
+    display: flex;
+    width: fit-content;
+    border-radius: 30px;
+    margin: 20px;
+    max-width: 80%;
+    font-size: 30px;
+    color: var(--heading);
+    cursor: pointer;
+}
+
+
+/* .input-box:hover {
+} */
+
+.options-box {
+    background-color: var(--main);
+    color: var(--heading);
+    padding: 10px;
+    display: inline;
+    width: 21%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.options {
+    /* background: red; */
+    padding: 3px;
+    width: 50vh;
+    /* border-bottom: 2px solid #000; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.options-box div:hover {
+    background: var(--main);
+    color: var(--heading);
+}

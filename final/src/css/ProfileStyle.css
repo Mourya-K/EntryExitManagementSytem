@@ -1,0 +1,188 @@
+.wrapper312 {
+    position: absolute;
+    width: fit-content;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.7);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #ff3cac;
+    /* background-image: linear-gradient(
+    65.9deg,
+    rgba(85, 228, 224, 1) 5.5%,
+    rgba(75, 68, 224, 0.74) 54.2%,
+    rgba(64, 198, 238, 1) 55.2%,
+    rgba(177, 36, 224, 1) 98.4%
+  ); */
+    /* background-image: radial-gradient(
+    circle farthest-corner at 0.8% 3.1%,
+    rgba(255, 188, 224, 1) 0%,
+    rgba(170, 165, 255, 1) 46%,
+    rgba(165, 255, 205, 1) 100.2%
+  ); */
+    background: var(--main);
+}
+
+.wrapper312 .left21 {
+    width: 35%;
+    /* background: #68a6e5; */
+    padding: 30px 25px;
+    /* padding: 50px 55px; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper312 .left21 img {
+    /* border-radius: 100px; */
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    width: 19rem;
+    height: 20rem;
+    margin-bottom: 10px;
+}
+
+.wrapper312 .left21 h4 {
+    margin-bottom: 10px;
+    color: var(--heading);
+}
+
+.wrapper312 .left21 p {
+    font-size: 12px;
+}
+
+.wrapper312 .right312341 {
+    width: 65%;
+    /* background: #fff; */
+    padding: 30px 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.wrapper312 .right312341 .info1234323,
+.wrapper312 .right312341 .projects1235342 {
+    margin-bottom: 25px;
+}
+
+.wrapper312 .right312341 .info1234323 h3,
+.wrapper312 .right312341 .projects1235342 h3 {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: var(--heading);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.wrapper312 .right312341 .info_data14564,
+.wrapper312 .right312341 .projects1235342_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper312 .right312341 .info_data14564 .data12534,
+.wrapper312 .right312341 .projects_data7684 .data12534 {
+    width: 45%;
+}
+
+.wrapper312 .right312341 .info_data14564 .data12534 h4,
+.wrapper312 .right312341 .projects_data7684 .data12534 h4 {
+    color: var(--heading);
+    margin-bottom: 5px;
+}
+
+.wrapper312 .right312341 .info_data14564 .data12534 p,
+.wrapper312 .right312341 .projects_data7684 .data12534 p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: var(--heading);
+    font-weight: 400;
+}
+
+.wrapper312 .social_media ul {
+    display: flex;
+}
+
+.wrapper312 .social_media ul li {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient( to right, var(--skin-color), var(--bg--black-900));
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.wrapper312 .social_media ul li a {
+    /* color :#fff; */
+    display: block;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .details {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .recentOrders {
+        overflow-x: auto;
+    }
+    .status.inprogress {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardBox {
+        grid-template-columns: (1, 1fr);
+    }
+    .cardHeader h2 {
+        font-size: 20px;
+    }
+    .user {
+        min-width: 40px;
+    }
+    .navigation {
+        width: 100%;
+        left: -100%;
+        z-index: 1000;
+    }
+    .navigation.active {
+        width: 100%;
+        left: 0;
+    }
+    .toggle {
+        z-index: 10001;
+    }
+    .main.active.toggle {
+        position: fixed;
+        right: 0;
+        left: initial;
+        color: var(--heading);
+    }
+    .wrapper312 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        margin-top: 30px;
+        /* left: 195px; */
+    }
+    .wrapper312 .left21,
+    img {
+        width: 250px !important;
+        height: 190px !important;
+        display: flex;
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+    .wrapper312 .right312341 .info1234323 h3 {
+        margin-top: 40px;
+    }
+}
