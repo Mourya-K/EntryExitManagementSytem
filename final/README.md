@@ -1,4 +1,4 @@
-# Had trouble deploying it so attached a screenrecording or alternatively follow the steps below to run the code on your system
+Had trouble deploying it so attached a screen recording or alternatively follow the steps below to run the code on your system
 
 # Getting Started with Create React App
 
