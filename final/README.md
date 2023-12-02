@@ -1,3 +1,5 @@
+# Had trouble deploying it so attached a screenrecording or alternatively follow the steps below to run the code on your system
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
